@@ -12,6 +12,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       themeMode: ThemeMode.system,
       theme: ThemeData(),
+      darkTheme: ThemeData(),
     );
   }
 }
