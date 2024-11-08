@@ -1,0 +1,3 @@
+class TAppTheme {
+  TAppTheme._();
+}
