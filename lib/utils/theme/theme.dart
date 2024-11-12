@@ -8,6 +8,7 @@ class TAppTheme {
     fontFamily: 'Poppins',
     brightness: Brightness.light,
     primaryColor: Colors.blue,
+    scaffoldBackgroundColor: Colors.white,
   );
   static ThemeData darkTheme = ThemeData();
 }
