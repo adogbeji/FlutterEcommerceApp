@@ -3,6 +3,7 @@ import 'package:ecommerce_app/utils/theme/custom_themes/text_theme.dart';
 import 'package:ecommerce_app/utils/theme/custom_themes/elevated_button_theme.dart';
 
 class TAppTheme {
+  
   TAppTheme._();  // To avoid creating instances anywhere else
 
   static ThemeData lightTheme = ThemeData(
