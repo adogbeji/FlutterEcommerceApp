@@ -24,5 +24,14 @@ class TCheckboxTheme {
   );
 
   // Dark Theme
-  static CheckboxThemeData darkCheckboxTheme = const CheckboxThemeData();
+  static CheckboxThemeData darkCheckboxTheme = CheckboxThemeData(
+    shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(4)),
+    checkColor: MaterialStateProperty.resolveWith((states) {
+      if (states.contains(MaterialState.selected)) {
+        return Colors.white;
+      } else {
+        return Colors.black;
+      }
+    }),
+  );
 }
