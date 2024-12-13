@@ -21,9 +21,17 @@ class TTextFormFieldTheme {
       borderRadius: BorderRadius.circular(14),
       borderSide: const BorderSide(width: 1, color: Colors.grey),
     ),
-    focusedBorder: OutlineInputBorder().copyWith(
+    focusedBorder: const OutlineInputBorder().copyWith(
       borderRadius: BorderRadius.circular(14),
       borderSide: const BorderSide(width: 1, color: Colors.black12),
+    ),
+    errorBorder: const OutlineInputBorder().copyWith(
+      borderRadius: BorderRadius.circular(14),
+      borderSide: const BorderSide(width: 1, color: Colors.red),
+    ),
+    focusedErrorBorder: OutlineInputBorder().copyWith(
+      borderRadius: BorderRadius.circular(14),
+      borderSide: const BorderSide(width: 2, color: Colors.orange),
     ),
   );
 
