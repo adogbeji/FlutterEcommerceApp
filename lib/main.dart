@@ -3,6 +3,12 @@ import 'package:flutter/material.dart';
 import 'package:ecommerce_app/utils/theme/theme.dart';
 
 void main() {
+  // TODO: Add Widgets Binding
+  // TODO: Init Local Storage
+  // TODO: Await Native Splash
+  // TODO: Initialise Firebase
+  // TODO: Initialise Authentication
+
   runApp(const App());
 }
 
