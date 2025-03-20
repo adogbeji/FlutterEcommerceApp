@@ -43,4 +43,18 @@ class TSizes {
   static const double borderRadiusSm = 4.0;
   static const double borderRadiusMd = 8.0;
   static const double borderRadiusLg = 12.0;
+
+  // Divider Height
+  static const double dividerHeight = 1.0;
+
+
+  // Product Item Dimensions
+  static const double productImageSize = 120.0;
+  static const double productImageRadius = 16.0;
+  static const double productImageHeight = 160.0;
+
+
+  // Input Field
+  static const double inputFieldRadius = 12.0;
+  static const double spaceBtwInputFields = 16.0;
 }
